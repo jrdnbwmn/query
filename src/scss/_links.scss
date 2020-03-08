@@ -8,7 +8,7 @@
 .link:link,
 .link:visited {
     color: $link-color;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color $fade;
 }
 
@@ -22,6 +22,50 @@
 
 .default-links a:active,
 .link:active {
+    background-image: none;
+    color: $active-link-color;
+    outline: 0;
+    transition: color $fade;
+}
+
+// Gray (like text)
+.link--gray,
+.link--gray:link,
+.link--gray:visited {
+    color: $text-color;
+    text-decoration: none;
+    transition: color $fade;
+}
+
+.link--gray:hover,
+.link--gray:focus {
+    color: $link-hover-color;
+    text-decoration: underline;
+}
+
+.link--gray:active {
+    background-image: none;
+    color: $active-link-color;
+    outline: 0;
+    transition: color $fade;
+}
+
+// Gray (like text)
+.link--no-underline,
+.link--no-underline:link,
+.link--no-underline:visited {
+    color: $link-color;
+    text-decoration: none;
+    transition: color $fade;
+}
+
+.link--no-underline:hover,
+.link--no-underline:focus {
+    color: $link-hover-color;
+    text-decoration: none;
+}
+
+.link--no-underline:active {
     background-image: none;
     color: $active-link-color;
     outline: 0;

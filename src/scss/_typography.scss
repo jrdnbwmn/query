@@ -39,6 +39,16 @@ h6 {
     text-rendering: optimizeLegibility; // Enable ligatures and kerning
 }
 
+.article h1 { margin-bottom: $space-2; }
+
+.article h2 {
+    padding-top: $space-1;
+    margin-bottom: $space-1;
+    line-height: 1.4;
+}
+
+h4, h5 { line-height: $line-height--base; }
+
 h6 { color: $gray-3; }
 
 .h1,
@@ -78,6 +88,12 @@ hr {
     max-width: 100%; // Prevents it from breaking out of container
     margin-bottom: $p-mb;
     padding-left: $baseline*3;
+
+    cite {
+        display: block;
+        margin-top: $space-1;
+        font-style: normal;
+    }
 }
 
 .blockquote:before, .blockquote:after { content: ""; }
@@ -86,7 +102,7 @@ hr {
 // Utilities
 // -------------------------------------------------------------------
 // Weight
-.bold                    { font-weight: bold; }
+.bold, strong            { font-family: $bold; }
 .regular                 { font-weight: normal; }
 .italic                  { font-style: italic; }
 
@@ -104,4 +120,7 @@ hr {
 .font--heading           { font-family: $font-family--heading }
 .font--reading           { font-family: $font-family--reading }
 .font--ui                { font-family: $font-family--ui }
-.font--mono              { font-family: $font-family--mono }
+.font--mono              { font-family: $font-family--mono; font-size: $h5; }
+
+// Caps
+.capitalize              { text-transform: capitalize; }

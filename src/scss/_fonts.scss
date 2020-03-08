@@ -1,0 +1,25 @@
+// Museo Sans
+// -------------------------------------------------------------------
+@font-face {
+    font-family: 'Museo Sans Light';
+    src: url('../fonts/MuseoSans_300-webfont.woff2') format('woff2'),
+         url('../fonts/MuseoSans_300-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    src: url('../fonts/Inter-Black.woff2') format('woff2'),
+         url('../fonts/Inter-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../fonts/robotomono-regular.woff2') format('woff2'),
+         url('../fonts/robotomono-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

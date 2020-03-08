@@ -2,3 +2,9 @@
 // -------------------------------------------------------------------
 // Make stuff responsive
 img, canvas, iframe, video, svg { max-width: 100%; }
+
+.logo {
+    position: relative;
+    bottom: 4px;
+    max-height: 25px;
+}
