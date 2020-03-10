@@ -20,20 +20,21 @@
 
     </head>
 
-    <body>
+    <body class="has-animations">
 
 
 <header>
     <div class="container--lg pt3 pb4">
         <div class="clearfix">
-            <div class="float--left">
+            <div class="float--left float--none-on-mobile align--center-on-mobile mb2-on-mobile">
                 <a href="/" class="link--no-underline pr1"><img src="/img/query-mark.svg" class="logo" alt="Query"></a>
             </div>
-            <nav class="float--right">
-                <ul class="no-bullets list--inline text--dark-gray flex align-items-center">
-                    <li class="ml3"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Interviews</a></li>
-                    <li class="ml3"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Twitter</a></li>
-                    <li class="ml3"><a href="/newsletter.html" class="btn btn--outline">Newsletter</a></li>
+            <nav class="float--right float--none-on-mobile center-on-mobile">
+                <ul class="no-bullets list--inline text--dark-gray flex align-items-center justify-content-center">
+                    <li class="ml3 m1-on-mobile"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Interviews</a></li>
+                    <li class="ml3 m1-on-mobile"><a href="https://twitter.com/queryinterviews" target="_blank" class="link link--gray_no-underline p1 match-btn">Twitter</a></li>
+                    <li class="ml3 hide-on-mobile"><a href="/newsletter.html" class="btn btn--outline">Newsletter</a></li>
+                    <li class="ml3 m1-on-mobile show-on-mobile"><a href="/newsletter.html" class="link link--gray_no-underline p1 match-btn">Newsletter</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,12 +45,12 @@
     <div class="container">
 
         <div>
-            <h3 class="mb2">Submitted</h3>
+            <h3 class="mb1">Successfully submitted</h3>
 
-            <p class="mb1">Thank you for submitting a guest idea! </p>
-            <p><a href="" class="link">Follow @query</a> or sign up for our newsletter.</p>
+            <p class="mb2">Thank you! I'll be reaching out to you&nbsp;soon.</p>
+            <p>Follow <a href="https://twitter.com/queryinterviews" target="_blank" class="link">@queryinterviews</a> or <a href="newsletter.html" class="link">sign up</a> for our&nbsp;newsletter.</p>
 
-            <p class="mt3"><a href="/" class="text-link">← Back to the homepage</a></p>
+            <p class="mt3"><a href="/" class="link">← Back to the homepage</a></p>
         </div>
 
     </div>
@@ -59,6 +60,9 @@
 <section>
     
 </section>
+
+        <!-- Scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
         <!-- The compiled JavaScript file -->
         <script src="js/production.js"></script>

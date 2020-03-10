@@ -20,20 +20,21 @@
 
     </head>
 
-    <body>
+    <body class="has-animations">
 
 
 <header>
     <div class="container--lg pt3 pb4">
         <div class="clearfix">
-            <div class="float--left">
+            <div class="float--left float--none-on-mobile align--center-on-mobile mb2-on-mobile">
                 <a href="/" class="link--no-underline pr1"><img src="/img/query-mark.svg" class="logo" alt="Query"></a>
             </div>
-            <nav class="float--right">
-                <ul class="no-bullets list--inline text--dark-gray flex align-items-center">
-                    <li class="ml3"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Interviews</a></li>
-                    <li class="ml3"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Twitter</a></li>
-                    <li class="ml3"><a href="/newsletter.html" class="btn btn--outline">Newsletter</a></li>
+            <nav class="float--right float--none-on-mobile center-on-mobile">
+                <ul class="no-bullets list--inline text--dark-gray flex align-items-center justify-content-center">
+                    <li class="ml3 m1-on-mobile"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Interviews</a></li>
+                    <li class="ml3 m1-on-mobile"><a href="https://twitter.com/queryinterviews" target="_blank" class="link link--gray_no-underline p1 match-btn">Twitter</a></li>
+                    <li class="ml3 hide-on-mobile"><a href="/newsletter.html" class="btn btn--outline">Newsletter</a></li>
+                    <li class="ml3 m1-on-mobile show-on-mobile"><a href="/newsletter.html" class="link link--gray_no-underline p1 match-btn">Newsletter</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,11 +46,14 @@
     <div class="container">
 
         <div>
-            <img class="mb2" src="/img/inbox-circle.svg">
-            <h1 class="mb2">Bite-sized interviews for&nbsp;makers.</h1>
-            <p>Query is a newsletter for entrepreneurs who build stuff on the web. Every week <a class="link" href="https://twitter.com/jrdnbwmn" target="_blank">@jrdnbwmn</a> poses three questions to a founder of a successful business. Subjects range from pricing to working remotely to sustainable growth.</p>
+            <img class="mb2 is-revealing reveal-on-scroll" src="/img/inbox-circle.svg">
+            <div class="is-revealing reveal-on-scroll">
+                <h1 class="mb2">Bite-sized interviews for&nbsp;makers.</h1>
+                <p>Query is a newsletter for entrepreneurs who build stuff on the web. Every week <a class="link" href="https://twitter.com/jrdnbwmn" target="_blank">@jrdnbwmn</a> poses three questions to a founder of a successful business. Subjects range from pricing to working remotely to sustainable&nbsp;growth.</p>
+            </div>
             
-            <!-- Desktop form -->
+            <div class="is-revealing reveal-on-scroll">
+                <!-- Desktop form -->
 <div id="mc_embed_signup" class="hide-on-mobile">
 <form action="https://jrdnbwmn.us2.list-manage.com/subscribe/post?u=a3f41956c3bc8e6bf0b723ccf&amp;id=139ad3afed" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
@@ -82,38 +86,33 @@
     </div>
 </form>
 </div>
+            </div>
         </div>
     
     </div>
 </section>
 
-<!-- Latest interviews -->
-<section>
-    
-</section>
-
 <!-- About your interviewer -->
-<section class="pt4 pb2">
+<section class="pt4">
     <div class="container--lg">
 
         <div class="grid-row">
-            <div class="grid-column">
-                <h3>Latest interview</h3>
-                <div>
-                    <p class="mb0">William Candillon from React Starter</p>
-                    <p>William Candillon is a 31-year-old software engineer from France. He built React Native Starter Kits during a sabbatical and now has repos, writing, and videos centered on React Native development. William currently lives in beautiful Zürich, Switzerland.</p>
-                    <a href="" class="link">Keep Reading →</a>
+            <div class="grid-column mb2 is-revealing reveal-on-scroll">
+                <h3 class="mb1">Latest interview</h3>
+                <div class="mb2-on-mobile">
+                    <p class="mb1">William Candillon is a 31-year-old software engineer from France. He built React Native Starter Kits during a sabbatical and now has repos, writing, and videos...</p>
+                    <a href="post.html" class="link--red">Keep Reading →</a>
                 </div>
             </div>
             <div class="grid-column span-1"></div>
-            <div class="grid-column">
+            <div class="grid-column mb2 is-revealing reveal-on-scroll">
                 <div class="grid-row">
                     <div class="grid-column">
-                        <h3>About your host</h3>
-                        <p>Hi there.</p>
-                        <p>I'm <a class="link link" href="https://www.jrdnbwmn.com">Jordan Bowman</a>, the host of Query. I make stuff for the web, just like you. </p>
+                        <h3 class="mb1">About your host</h3>
+                        <p class="mb1">Hi there 👋. I'm <a class="link link" href="https://www.jrdnbwmn.com">Jordan Bowman</a>, the creator and host of Query. I make stuff for the web just like you and love talking to founders. </p>
+                        <a href="" class="link--red">Follow on Twitter →</a>
                     </div>
-                    <div class="grid-column span-one-third">
+                    <div class="grid-column span-7 hide-on-mobile">
                         <img class="rounded" src="/img/jordanbowman.jpg" alt="Jordan Bowman">
                     </div>
                 </div>
@@ -123,19 +122,17 @@
     </div>
 </section>
 
-<!-- Big newsletter signup -->
-<section>
-    
-</section>
-
-<footer class="pt4 pb3 align--center">
-    <a class="link--gray_no-underline p1 ml1 mr1" href="archive.html">Interviews</a>
-    <a class="link--gray_no-underline p1 ml1 mr1" href="archive.html">Twitter</a>
-    <a class="link--gray_no-underline p1 ml1 mr1" href="contact.html">Submit</a>
-    <a class="link--gray_no-underline p1 ml1 mr1" href="contact.html">Contact</a>
-    <a class="link--gray_no-underline p1 ml1 mr1" href="privacy.html">Privacy & Terms</a>
+<footer class="pt4 pb3 mt4 align--center">
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1" href="archive.html">Interviews</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="https://twitter.com/queryinterviews" target="_blank">Twitter</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="submit.html">Submit</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="contact.html">Contact</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="privacy.html">Privacy & Terms</a>
 </footer>
 
+
+        <!-- Scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
         <!-- The compiled JavaScript file -->
         <script src="js/production.js"></script>

@@ -1,1 +1,2 @@
-$(".js-dropdown-toggle").click(function(o){o.stopPropagation(),$(".js-dropdown").is(":visible")?($(".js-dropdown").hide(),$(this).siblings(".js-dropdown").show()):$(this).siblings(".js-dropdown").show()}),$(document).click(function(o){$(o.target).closest(".js-dropdown").length||$(".js-dropdown").is(":visible")&&$(".js-dropdown").hide()});
+!function(){window;const e=document.documentElement;if(e.classList.remove("no-js"),e.classList.add("js"),document.body.classList.contains("has-animations")){(window.sr=ScrollReveal()).reveal(".reveal-on-scroll",{duration:600,distance:"20px",easing:"cubic-bezier(0.5, -0.01, 0, 1.005)",origin:"bottom",interval:100})}}();
+

@@ -51,6 +51,9 @@
 }
 
 // Red link
+.red-links a,
+.red-links a:link,
+.red-links a:visited,
 .link--red,
 .link--red:link,
 .link--red:visited {
@@ -59,12 +62,16 @@
     transition: color $fade;
 }
 
+.red-links a:hover,
+.red-links a:focus,
 .link--red:hover,
 .link--red:focus {
     color: $link-hover-color;
     text-decoration: underline;
 }
 
+
+.red-links a:active,
 .link--red:active {
     background-image: none;
     color: $active-link-color;

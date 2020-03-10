@@ -20,43 +20,51 @@
 
     </head>
 
-    <body>
+    <body class="has-animations">
 
 
 <header>
     <div class="container--lg pt3 pb4">
         <div class="clearfix">
-            <div class="float--left">
+            <div class="float--left float--none-on-mobile align--center-on-mobile mb2-on-mobile">
                 <a href="/" class="link--no-underline pr1"><img src="/img/query-mark.svg" class="logo" alt="Query"></a>
             </div>
-            <nav class="float--right">
-                <ul class="no-bullets list--inline text--dark-gray flex align-items-center">
-                    <li class="ml3"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Interviews</a></li>
-                    <li class="ml3"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Twitter</a></li>
-                    <li class="ml3"><a href="/newsletter.html" class="btn btn--outline">Newsletter</a></li>
+            <nav class="float--right float--none-on-mobile center-on-mobile">
+                <ul class="no-bullets list--inline text--dark-gray flex align-items-center justify-content-center">
+                    <li class="ml3 m1-on-mobile"><a href="/archive.html" class="link link--gray_no-underline p1 match-btn">Interviews</a></li>
+                    <li class="ml3 m1-on-mobile"><a href="https://twitter.com/queryinterviews" target="_blank" class="link link--gray_no-underline p1 match-btn">Twitter</a></li>
+                    <li class="ml3 hide-on-mobile"><a href="/newsletter.html" class="btn btn--outline">Newsletter</a></li>
+                    <li class="ml3 m1-on-mobile show-on-mobile"><a href="/newsletter.html" class="link link--gray_no-underline p1 match-btn">Newsletter</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
 
-<div class="pt2 pb4">
+<div class="pt2 pb4 mb2">
     <div class="container">
 
         <div>
-            <h1 class="mb2">👏 Woo hoo! 🎉</h1>
-            <p>You're now part of the Query community! This is the place where I spend the most time and energy, and I'm glad you've joined&nbsp;us.</p>
-            <p>Look out for a welcome email coming&nbsp;soon!</p>
+            <h2 class="mb2">👏 Woo hoo! 🎉</h2>
+            <p>You're now part of the Query community! I'm glad you've joined&nbsp;us.</p>
+            <p>Look out for a welcome email comingsoon. If you don't see it in your inbox within the next hour, check the promotions tab or your&nbsp;spam.</p>
             <p>– Jordan</p>
         </div>
 
     </div>
 </div>
 
-<!-- Sign up for the newsletter -->
-<section>
-    
-</section>
+<footer class="pt4 pb3 mt4 align--center">
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1" href="archive.html">Interviews</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="https://twitter.com/queryinterviews" target="_blank">Twitter</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="submit.html">Submit</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="contact.html">Contact</a>
+    <a class="link--gray_no-underline full-width-on-mobile m0-on-mobile p1 ml3" href="privacy.html">Privacy & Terms</a>
+</footer>
+
+
+        <!-- Scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
         <!-- The compiled JavaScript file -->
         <script src="js/production.js"></script>

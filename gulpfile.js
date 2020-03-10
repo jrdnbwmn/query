@@ -100,7 +100,7 @@ gulp.task("js", function() {
         // Concatenate all JS files into one
         .pipe(concat("production.js"))
         // Minify JS
-        .pipe(uglify())
+        // .pipe(uglify())
         // Where to store the finalized JS
         .pipe(gulp.dest("dist/js"));
 });

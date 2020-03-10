@@ -17,6 +17,11 @@
     padding: $form-padding;
     width: 100%;
     -moz-osx-font-smoothing: grayscale;
+
+    &:active,
+    &:focus {
+        border-color: $gray-6;
+    }
 }
 
 .label {
