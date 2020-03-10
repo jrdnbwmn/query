@@ -3,7 +3,7 @@
 @@include("partials/header.html")
 
 <!-- The pitch -->
-<section class="pt2 pb2">
+<section class="pt2 pb4">
     <div class="container">
 
         <div>
@@ -17,26 +17,42 @@
     </div>
 </section>
 
-<!-- Latest interview -->
+<!-- Latest interviews -->
 <section>
     
 </section>
 
 <!-- About your interviewer -->
 <section class="pt4 pb2">
-    <div class="container">
+    <div class="container--lg">
 
         <div class="grid-row">
             <div class="grid-column">
-                <p>Hi there.</p>
-                <p>I'm <a class="link link" href="https://www.jrdnbwmn.com">Jordan Bowman</a>, the host of Query. I make stuff for the web, just like you. </p>
+                <h3>Latest interview</h3>
+                <div>
+                    <p class="mb0">William Candillon from React Starter</p>
+                    <p>William Candillon is a 31-year-old software engineer from France. He built React Native Starter Kits during a sabbatical and now has repos, writing, and videos centered on React Native development. William currently lives in beautiful Zürich, Switzerland.</p>
+                    <a href="" class="link">Keep Reading →</a>
+                </div>
             </div>
+            <div class="grid-column span-1"></div>
             <div class="grid-column">
-                <img class="rounded" src="/img/jordanbowman.jpg" alt="Jordan Bowman">
+                <div class="grid-row">
+                    <div class="grid-column">
+                        <h3>About your host</h3>
+                        <p>Hi there.</p>
+                        <p>I'm <a class="link link" href="https://www.jrdnbwmn.com">Jordan Bowman</a>, the host of Query. I make stuff for the web, just like you. </p>
+                    </div>
+                    <div class="grid-column span-one-third">
+                        <img class="rounded" src="/img/jordanbowman.jpg" alt="Jordan Bowman">
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
 </section>
+
+@@include("partials/footer.html")
 
 @@include("partials/foot.html")
