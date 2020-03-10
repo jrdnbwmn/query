@@ -113,6 +113,23 @@ a.btn {
     }
 }
 
+.btn--gray {
+    background-color: $gray-1;
+    border-color: $gray-1;
+    color: $text-color;
+
+    &:hover,
+    &:focus {
+        background-color: darken($gray-1, 10%);
+        border-color: darken($gray-1, 10%);
+    }
+
+    &:active {
+        background-color: darken($gray-1, 20%);
+        border-color: darken($gray-1, 20%);
+    }
+}
+
 // Outline button
 .btn--outline,
 .btn--outline:visited {
