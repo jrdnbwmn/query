@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Artboard-Copy" stroke="#ED4A38" stroke-width="16.8">
-            <g id="feather(1)" transform="translate(66.000000, 65.000000)">
-                <path d="M153.216,88.92 C172.90937,69.2035702 172.90937,37.2369216 153.216,17.5204918 C133.52263,-2.19593796 101.59337,-2.19593796 81.9,17.5204918 L25.2,74.2868852 L25.2,145.770492 L96.6,145.770492 L153.216,88.92 Z" id="Shape"></path>
-                <path d="M117.6,53.2622951 L0,171" id="Shape"></path>
-                <path d="M130.2,112.131148 L58.8,112.131148" id="Shape"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="271" height="270" xmlns="http://www.w3.org/2000/svg"><path d="M235.704 137.92c28.368-28.364 28.368-74.351 0-102.715-28.368-28.364-74.361-28.364-102.729 0L51.3 116.869v102.836h102.85l81.554-81.785zM184.4 86.623L15 256m187.55-84.689H99.7" stroke="#ED4A38" stroke-width="24.192" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
