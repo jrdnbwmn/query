@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard">
-            <g id="inbox" transform="translate(23.000000, 25.000000)"></g>
-            <g id="Group" transform="translate(1.000000, 1.000000)">
-                <circle id="Oval" fill="#ED4A38" cx="31.5" cy="31.5" r="31.5"></circle>
-                <polyline id="Shape" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="46.5 31.5 37.5 31.5 34.5 36 28.5 36 25.5 31.5 16.5 31.5"></polyline>
-                <path d="M21.675,21.165 L16.5,31.5 L16.5,40.5 C16.5,42.1568542 17.8431458,43.5 19.5,43.5 L43.5,43.5 C45.1568542,43.5 46.5,42.1568542 46.5,40.5 L46.5,31.5 L41.325,21.165 C40.818405,20.1455135 39.778416,19.5006041 38.64,19.5 L24.36,19.5 C23.221584,19.5006041 22.181595,20.1455135 21.675,21.165 Z" id="Shape" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="65" viewBox="0 0 65 65" width="65" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="31.5" cy="31.5" fill="#ed4a38" r="31.5"/><g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path d="m46.5 31.5h-9l-3 4.5h-6l-3-4.5h-9"/><path d="m21.675 21.165-5.175 10.335v9c0 1.6568542 1.3431458 3 3 3h24c1.6568542 0 3-1.3431458 3-3v-9l-5.175-10.335c-.506595-1.0194865-1.546584-1.6643959-2.685-1.665h-14.28c-1.138416.0006041-2.178405.6455135-2.685 1.665z"/></g></g></svg>
