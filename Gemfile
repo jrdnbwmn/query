@@ -16,9 +16,9 @@ gem "jekyll", "~> 4.0.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-admin" # https://github.com/jekyll/jekyll-admin
-  gem "jekyll-archives" # https://github.com/jekyll/jekyll-archives
   gem "jekyll-feed" # https://github.com/jekyll/jekyll-feed
   gem "jekyll-seo-tag" # https://github.com/jekyll/jekyll-seo-tag
   gem "jekyll-archives" # https://github.com/jekyll/jekyll-archives
+  gem "jekyll-minifier" # https://github.com/digitalsparky/jekyll-minifier
   gem "jekyll-sitemap" # https://github.com/jekyll/jekyll-sitemap
 end

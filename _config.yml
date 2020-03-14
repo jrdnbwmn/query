@@ -46,6 +46,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-minifier
   - jekyll-sitemap # Keep at end
 sass:
   sass_dir: _sass
@@ -63,6 +64,9 @@ jekyll-archives:
     year: '/year/:year/'
     month: '/month/:year-:month/'
     tag: '/tag/:name/'
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
 
 # Other
 timezone: America/Denver
