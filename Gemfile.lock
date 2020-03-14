@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    autoprefixer-rails (9.7.4)
+      execjs
     backports (3.17.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
@@ -39,6 +41,8 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
+    jekyll-autoprefixer (1.0.2)
+      autoprefixer-rails (~> 9.3)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-minifier (0.1.10)
@@ -107,6 +111,7 @@ DEPENDENCIES
   jekyll (~> 4.0.0)
   jekyll-admin
   jekyll-archives
+  jekyll-autoprefixer
   jekyll-feed
   jekyll-minifier
   jekyll-seo-tag

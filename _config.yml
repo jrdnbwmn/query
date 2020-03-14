@@ -47,10 +47,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-minifier
+  - jekyll-autoprefixer
   - jekyll-sitemap # Keep at end
 sass:
   sass_dir: _sass
   style: compressed # possible values: nested expanded compact compressed
+  sourcemap: never
 jekyll-archives:
   enabled:
     - year
@@ -67,6 +69,9 @@ jekyll-archives:
 jekyll-minifier:
   uglifier_args:
     harmony: true
+autoprefixer:
+  browsers:
+  - last 2 versions
 
 # Other
 timezone: America/Denver
