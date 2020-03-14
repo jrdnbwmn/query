@@ -47,6 +47,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap # Keep at end
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
 jekyll-archives:
   enabled:
     - year

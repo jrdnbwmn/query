@@ -1,3 +1,3 @@
-# My Website
+# Website for Query
 
-[https://www.jrdnbwmn.com](https://www.jrdnbwmn.com)
+[https://www.queryinterviews.com](https://www.queryinterviews.com)
