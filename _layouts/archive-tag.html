@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<h3 class="mb3">Posts tagged "{{ page.title | capitalize }}"</h3>
+
+<!-- Posts -->
+<div>
+    <ul class="no-bullets">
+        {% for post in page.posts %}
+        <li class="mb2"><a href="{{ post.url }}" class="link">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

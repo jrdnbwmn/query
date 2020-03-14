@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<h3 class="mb3">Posts from {{ page.date | date: "%Y" }}</h3>
+
+<!-- Posts -->
+<div>
+    <ul class="no-bullets">
+        {% for post in page.posts %}
+        <li class="mb2"><a href="{{ post.url }}" class="link">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

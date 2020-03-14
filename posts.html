@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="container--lg pb4">
+
+    <div class="grid-row">
+
+        <div class="grid-column span-3"></div>
+        <div class="grid-column span-9"><h2 class="mb2">Posts</h2></div>
+
+        <!-- Tags -->
+        <div class="grid-column span-3 mb3">
+            <h4 class="mb1">Tags</h4>
+            <ul class="no-bullets">
+                {% for tag in site.tags %}
+                <li class="mb0"><a href="/tag/{{ tag[0] | slugify }}" class="link link--gray capitalize">{{ tag[0] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Posts -->
+        <div class="grid-column span-9">
+            <ul class="no-bullets">
+                {% for post in site.posts %}
+                <li class="mb2">
+                    <a href="{{ post.url }}" class="link">{{ post.title }}</a>
+                    <span class="block text--dark-gray">{{ post.date | date_to_string }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+
+</div>

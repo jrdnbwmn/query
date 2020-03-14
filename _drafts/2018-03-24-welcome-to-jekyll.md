@@ -1,16 +1,17 @@
 ---
-layout: post
 title:  "Welcome to Jekyll!"
-date:   2020-03-14 14:59:49 -0400
-categories: jekyll update
+description: A short description of the page's content
+image: URL to an image associated with the post, page, or document (e.g., /assets/page-pic.jpg)
+date:   2018-03-24 09:26:56 -0600
+tags: [ query, pricing, "paid advertising" ]
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+... which is shown in the screenshot below:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![My helpful screenshot]({{ "/img/pardon.gif" | absolute_url }})
 
 Jekyll also offers powerful support for code snippets:
 
