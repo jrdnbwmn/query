@@ -27,12 +27,10 @@ social:
   name: Jordan Bowman
   links:
     - https://twitter.com/jrdnbwmn
-    - https://plus.google.com/+JordanBowman
     - https://github.com/jrdnbwmn
     - https://medium.com/@jrdnbwmn
 google_site_verification: ba0nqRhWolY1qsWZfe3v04Hymc3NtO_RpVJC_RcajLM
 lang: en_US
-
 twitter_username: jrdnbwmn
 github_username: jrdnbwmn
 
@@ -41,6 +39,12 @@ permalink: /post/:title/
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+  sourcemap: never
+
+# Plugins
 plugins:
   - jekyll-admin
   - jekyll-feed
@@ -49,10 +53,6 @@ plugins:
   - jekyll-minifier
   - jekyll-autoprefixer
   - jekyll-sitemap # Keep at end
-sass:
-  sass_dir: _sass
-  style: compressed # possible values: nested expanded compact compressed
-  sourcemap: never
 jekyll-archives:
   enabled:
     - year
@@ -69,26 +69,31 @@ jekyll-archives:
 jekyll-minifier:
   uglifier_args:
     harmony: true
+  exclude: 
+    - 'feed.xml'
+    - 'sitemap.xml'
+    - 'robots.txt'
+    - 'humans.txt'
 autoprefixer:
   browsers:
-  - last 2 versions
+  - last 1 version
 
 # Other
-timezone: America/Denver
+timezone: America/New_York
 
 # Defaults
 defaults:
-    -
-        scope:
-            path: "" # an empty string here means all files in the project
-            type: "posts" # previously `post` in Jekyll 2.2.
-        values:
-          layout: "post"
-    -
-        scope:
-            path: "img"
-        values:
-            image: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "img"
+    values:
+      image: true
 
 # Exclude from processing
 exclude:

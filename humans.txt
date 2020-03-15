@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Designer/Developer: Jordan Bowman
+    https://www.jrdnbwmn.com
+    @jrdnbwmn
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Javascript, Jekyll, Normalize.css, Sass, Pear
+    
