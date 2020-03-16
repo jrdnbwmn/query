@@ -4,11 +4,10 @@
 img, canvas, iframe, video, svg { max-width: 100%; }
 
 .logo {
-    height: 20px;
-    width: 16px;
+    position: relative;
+    bottom: 3px;
 }
 
-.icon {
-    height: 15px;
-    vertical-align: sub;
+.button-icon {
+    bottom: 4px;
 }

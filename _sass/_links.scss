@@ -7,76 +7,74 @@
 .link,
 .link:link,
 .link:visited {
-    color: $link-color;
-    text-decoration: none;
-    transition: color $fade, border-color $fade;
-    border-bottom: 1px solid $link-color;
+    color: $text-color;
+    text-decoration: underline;
+    transition: color $fade;
 }
 
 .default-links a:hover,
 .default-links a:focus,
 .link:hover,
 .link:focus {
-    color: $link-hover-color;
-    border-color: $link-hover-color;
+    color: $link-color;
+    text-decoration: underline;
 }
 
 .default-links a:active,
 .link:active {
     background-image: none;
-    color: $active-link-color;
-    border-color: $active-link-color;
-    outline: 0;
-    transition: color $fade, border-color $fade;
-}
-
-// Non-text/UI links
-.link--ui,
-.link--ui:link,
-.link--ui:visited {
-    border: none;
-}
-
-.link--ui:hover,
-.link--ui:focus {
     color: $link-hover-color;
+    outline: 0;
+    transition: color $fade;
 }
 
-.link--ui:active {
-    color: $active-link-color;
-}
-
-
-// Gray text links
-.link--gray,
-.link--gray:link,
-.link--gray:visited {
-    color: $dark-gray;
-    border: none;
-}
-
-.link--gray:hover,
-.link--gray:focus {
-    color: $link-color;
-}
-
-.link--gray:active {
-    color: $link-color;
-}
-
-// Text color links
-.link--gray,
-.link--gray:link,
-.link--gray:visited {
+// Gray (like text, no underline)
+.link--gray_no-underline,
+.link--gray_no-underline:link,
+.link--gray_no-underline:visited {
     color: $text-color;
-    border: none;
+    text-decoration: none;
+    transition: color $fade;
 }
 
-.link--gray:hover,
-.link--gray:focus {
+.link--gray_no-underline:hover,
+.link--gray_no-underline:focus {
     color: $link-color;
+    text-decoration: none;
 }
 
-.link--gray:active {
+.link--gray_no-underline:active {
+    background-image: none;
+    color: $link-hover-color;
+    outline: 0;
+    transition: color $fade;
+}
+
+// Red link
+.red-links a,
+.red-links a:link,
+.red-links a:visited,
+.link--red,
+.link--red:link,
+.link--red:visited {
     color: $link-color;
+    text-decoration: underline;
+    transition: color $fade;
+}
+
+.red-links a:hover,
+.red-links a:focus,
+.link--red:hover,
+.link--red:focus {
+    color: $link-hover-color;
+    text-decoration: underline;
+}
+
+
+.red-links a:active,
+.link--red:active {
+    background-image: none;
+    color: $active-link-color;
+    outline: 0;
+    transition: color $fade;
 }

@@ -27,6 +27,8 @@
 .inline                { display: inline; }
 
 .flex                  { display: flex; }
+.align-items-center    { align-items: center; }
+.justify-content-center{ justify-content: center; }
 
 // Overflow
 .overflow--scroll      { overflow: scroll; }
@@ -34,29 +36,6 @@
 .overflow--visible     { overflow: visible; }
 .overflow--auto        { overflow: auto; }
 
-// Cursor
-.pointer               { cursor: pointer; }
-
-// Some mobile utilities
-// `show-on-mobile` displays the element only on mobile devices
-// `mobile-block` makes the element go display block on mobile devices
-.show-on-mobile { display: none !important; }
-@media screen and (max-width: $breakpoint--sm) {
-    .show-on-mobile,
-    .block-on-mobile {
-        display: block !important;
-    }
-
-    .hide-on-mobile {
-        display: none !important;
-    }
-}
-
-.full-on-mobile {
-    @media screen and (max-width: $breakpoint--sm) {
-        width: 100%;
-    }
-}
 
 
 // Layout utilities
@@ -80,5 +59,49 @@
 
     &:after {
         clear: both;
+    }
+}
+
+
+// RWD
+// -------------------------------------------------------------------
+// `show-on-mobile` displays the element only on mobile devices
+// `mobile-block` makes the element go display block on mobile devices
+.show-on-mobile { display: none !important; }
+@media screen and (max-width: $breakpoint--sm) {
+    .show-on-mobile,
+    .block-on-mobile {
+        display: block !important;
+    }
+
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: $breakpoint--sm) {
+    .full-width-on-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .align--center-on-mobile {
+        text-align: center;
+    }
+
+    .m0-on-mobile {
+        margin: 0;
+    }
+
+    .m1-on-mobile {
+        margin: $space-1;
+    }
+
+    .mb2-on-mobile {
+        margin-bottom: $space-2;
+    }
+
+    .float--none-on-mobile {
+        float: none;
     }
 }
