@@ -35,7 +35,7 @@ twitter_username: jrdnbwmn
 github_username: jrdnbwmn
 
 # Posts
-permalink: /post/:title/
+permalink: /interview/:title/
 
 # Build settings
 markdown: kramdown
@@ -74,6 +74,7 @@ jekyll-minifier:
     - 'sitemap.xml'
     - 'robots.txt'
     - 'humans.txt'
+    - 'CNAME'
 autoprefixer:
   browsers:
   - last 1 version
@@ -111,3 +112,4 @@ keep_files:
   - .git
   - .svn
   - .gitignore
+  - CNAME

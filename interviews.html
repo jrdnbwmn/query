@@ -11,7 +11,7 @@ layout: default
                 <h3 class="mb2">Tags</h3>
                 <div class="font--mono">
                     {% for tag in site.tags %}
-                    <a href="/tag/{{ tag[0] | slugify }}" class="block mt1 mb1 link--gray_no-underline">{{ tag[0] }}</a>
+                    <a href="/tag/{{ tag[0] | slugify }}" class="block mt1 mb1 link--gray_no-underline capitalize">{{ tag[0] }}</a>
                     {% endfor %}
                 </div>
             </div>

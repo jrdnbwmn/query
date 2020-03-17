@@ -1,11 +1,11 @@
 ---
-title:  "Manuel Frigerio on pricing, paid advertising, and Product Hunt"
+title:  "Manuel Frigerio from Maître"
 tags: [ pricing, paid advertising, query ]
 ---
 
 [Manuel Frigerio](https://manuel.friger.io/) is the founder of [Maître](https://maitreapp.co/), which offers multiple tools for viral referral marketing. He is Italian, and lived in London for four years before doing the "digital nomad thing"™ for 8 months in south-east Asia.
 
-### What have been your pricing decisions for Maître and how has that affected the overall success of the product?
+## What have been your pricing decisions for Maître and how has that affected the overall success of the product?
 
 I've changed my mind about pricing 100 times. In the beginning, I went for a one-off fee simply because I couldn't be bothered building a subscription system.
 
@@ -13,7 +13,7 @@ Financially, it was a big mistake. People were getting far more value out of the
 
 Since then, we have increased the pricing 5 times and moved to a subscription model. That move has meant first of all the financial survival of the company and expanding the team to support our ever-growing number of customers.
 
-### What are your thoughts on paid advertising for early startups?
+## What are your thoughts on paid advertising for early startups?
 
 Just avoid it. It's simply not worth the hassle. Like many startups, we tried paid ads and like almost everyone we gave up after wasting a few hundred dollars.
 
@@ -21,7 +21,7 @@ The problem with paid ads for early startups is that very few people actually kn
 
 And regardless of your knowledge, early startups should focus on recruiting users one-by-one, do "things that don't scale". Paid ads might be a strategy that works once you reach product/market fit and you need to scale but in the early days is, at most, laziness.
 
-### Maître is one of the most-upvoted products on Product Hunt. Can you give us a piece of advice for launching on PH, and tell us how much of the success there depends on luck?
+## Maître is one of the most-upvoted products on Product Hunt. Can you give us a piece of advice for launching on PH, and tell us how much of the success there depends on luck?
 
 Product Hunt has changed a lot since we launch on it. Ryan and the PH team have executed incredibly well. That said, I think there is timeless advice when launching on PH.
 

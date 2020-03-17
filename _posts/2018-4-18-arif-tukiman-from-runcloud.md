@@ -1,11 +1,11 @@
 ---
-title:  "Arif Tukiman on niches, international audiences, and customers vs competitors"
+title:  "Arif Tukiman from RunCloud"
 tags: [ niches, customers, competition, query ]
 ---
 
 [Arif Tukiman](https://twitter.com/arifcooll) is CEO of Cool Code and back in January 2017, their team released [RunCloud](https://runcloud.io/), which is a cloud server panel. It helps you set up, configure, manage, and monitor your VPSes on cloud hosting providers, and is specifically for PHP applications. Arif lives in Johor Bahru, Malaysia.
 
-### Why did you decide to drill down on a really specific niche for RunCloud and what have been the benefits of doing that?
+## Why did you decide to drill down on a really specific niche for RunCloud and what have been the benefits of doing that?
 
 We built RunCloud to help our own web developers and the issues they faced during development, deployment, and maintenance. Based on their response, we saw the potential to productize the software — we just knew it could help other developers dealing with the same problems.
 
@@ -23,7 +23,7 @@ When we started working on the product, we were just college kids fresh out of o
 
 Fortunately, we were also single college kids who didn't require much to survive on.
 
-### What are the challenges associated with targeting an international market? How have you dealt with those challenges?
+## What are the challenges associated with targeting an international market? How have you dealt with those challenges?
 
 We started charging from day one. We knew we had a good product by comparing ourselves to competitors who were charging way more for less features. Our packages are simple. A free account and a $10 per month account for an unlimited number of servers. That was the only way we knew we could make money then. (Of course, things have since changed.)
 
@@ -44,7 +44,7 @@ Along those lines is a gem from [Dane Maxwell](https://thefoundation.com/) that 
 
 Honestly, when it comes to our own survival, RunCloud does not provide enough to cover our own wages yet. We still take in custom mobile and web application work. At times, we provide training related to programming. What we earn from RunCloud will most probably go back into the business. Earning in USD while living in Malaysia does help with living expenses, as they are low compared to USA or Europe.
 
-### What's the balance between building for customers vs competitors?
+## What's the balance between building for customers vs competitors?
 
 Pay constant attention to your customers; don't become so preoccupied with the activities of your competitors that you forget about your own business. Focus on improving your own business and ensuring that everyone who is associated with it has a great customer experience.
 
