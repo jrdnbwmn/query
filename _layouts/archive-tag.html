@@ -1,14 +1,29 @@
 ---
-layout: page
+layout: default
 ---
 
-<h3 class="mb3">Posts tagged "{{ page.title | capitalize }}"</h3>
+<div class="pt2 pb4">
+    <div class="container--lg">
 
-<!-- Posts -->
-<div>
-    <ul class="no-bullets">
-        {% for post in page.posts %}
-        <li class="mb2"><a href="{{ post.url }}" class="link">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
+        <div class="grid-row">
+            <div class="grid-column span-2"></div>
+            <div class="grid-column">
+                <h2 class="mb3">Posts tagged "{{ page.title | capitalize }}"</h2>
+                <div class="border--top">
+                
+                    {% for post in page.posts %}
+                    <div class="border--bottom pt1 pb1">
+                        <div class="grid-row">
+                            <div class="grid-column span-7"><span class="font--mono">{{ post.date | date_to_string }}</span></div>
+                            <div class="grid-column"><h4><a class="block link--gray_no-underline" href="{{ post.url }}">{{ post.title }}<span class="bold">&nbsp;&nbsp;→</span></a></h4></div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                
+                </div>
+            </div>
+            <div class="grid-column span-2"></div>
+        </div>
+
+    </div>
 </div>

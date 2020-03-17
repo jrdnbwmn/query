@@ -1,0 +1,34 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<h2 class="mb1">Contact</h2>
+<p>Feel free to reach out to me about anything; I respond to every message. If you'd like to submit an idea for a guest you can <a href="submit.html" class="link">do that here</a>.</p>
+
+<div>
+    <form class="mt2" action="https://formsubmit.co/hello@queryinterviews.com" method="POST">
+        <label>Name
+            <input name="name" type="text" class="form-control mb1" required>
+        </label>
+
+        <label>Email address
+            <input name="email" type="email" class="form-control mb1" required>
+        </label>
+
+        <label>Message
+            <textarea name="message" class="form-control mb1" required></textarea>
+        </label>
+
+        <div class="align--right mt2">
+            <button class="btn btn--default" type="submit">Send</button>
+        </div>
+
+        <input type="hidden" name="_replyto">
+        <input type="hidden" name="_captcha" value="false">
+        <input name="_honey" style="display:none">
+        <input type="hidden" name="_subject" value="Query contact">
+        <input type="hidden" name="_next" value="https://www.queryinterviews.com/form-submitted/">
+    </form>
+</div>

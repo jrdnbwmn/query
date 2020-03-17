@@ -2,17 +2,54 @@
 layout: default
 ---
 
-<div class="container">
+<!-- The pitch -->
+<section class="pt2 pb4">
+    <div class="container">
 
-    <div class="mb3">
+        <div>
+            <div class="mb2 is-revealing reveal-on-scroll">
+                <svg height="65" width="65" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="31.5" cy="31.5" fill="#ed4a38" r="31.5"/><g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path d="M46.5 31.5h-9l-3 4.5h-6l-3-4.5h-9"/><path d="M21.675 21.165L16.5 31.5v9a3 3 0 003 3h24a3 3 0 003-3v-9l-5.175-10.335A3 3 0 0038.64 19.5H24.36a3 3 0 00-2.685 1.665z"/></g></g></svg>
+            </div>
+            <div class="is-revealing reveal-on-scroll">
+                <h1 class="mb2">Bite-sized interviews for&nbsp;makers.</h1>
+                <p>Query is a newsletter for entrepreneurs who build stuff on the web. Every week <a class="link" href="https://twitter.com/jrdnbwmn" target="_blank">@jrdnbwmn</a> poses three questions to a founder of a successful business. Subjects range from pricing to working remotely to sustainable&nbsp;growth.</p>
+            </div>
+            
+            <div class="is-revealing reveal-on-scroll">
+                {%- include newsletter-form.html -%}
+            </div>
+        </div>
+    
+    </div>
+</section>
 
-        <h1 class="mb2">Hi, I'm Jordan Bowman.</h1>
-        <p class="h3">👨‍💻 I make stuff for the&nbsp;web.</p>
-        <p class="mb3">If you do, too, you might be interested in my newsletter called Query. Every week, I pose three questions to a founder of a successful business. Along the way, we all learn a better way to do work and start a&nbsp;business.</p>
+<section class="pt4">
+    <div class="container--lg">
 
-        {%- include newsletter-form.html -%}
+        <div class="grid-row">
+            <!-- Latest interview -->
+            <div class="grid-column mb2 is-revealing reveal-on-scroll">
+                <h3 class="mb1">Latest interview</h3>
+                <div class="mb2-on-mobile">
+                    <p class="mb1">William Candillon is a 31-year-old software engineer from France. He built React Native Starter Kits during a sabbatical and now has repos, writing, and videos...</p>
+                    <a href="post.html" class="link--red">Keep Reading →</a>
+                </div>
+            </div>
+            <div class="grid-column span-1"></div>
+            <!-- About your interviewer -->
+            <div class="grid-column mb2 is-revealing reveal-on-scroll">
+                <div class="grid-row">
+                    <div class="grid-column">
+                        <h3 class="mb1">About your host</h3>
+                        <p class="mb1">Hi there 👋. I'm <a class="link link" href="https://www.jrdnbwmn.com" target="_blank">Jordan Bowman</a>, the creator and host of Query. I make stuff for the web just like you and love talking to founders. </p>
+                        <a href="" class="link--red">Follow on Twitter →</a>
+                    </div>
+                    <div class="grid-column span-7 hide-on-mobile">
+                        <img class="rounded" src="/img/jordanbowman.jpg" alt="Jordan Bowman">
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
-
-</div>
-
+</section>

@@ -1,0 +1,52 @@
+---
+layout: page
+title: Submit
+permalink: /submit/
+---
+
+<h2 class="mb1">Submit Guest Idea</h2>
+<p>Have someone in mind as a potential guest for Query? Fill out the form below and I'll see if we can add them into the schedule. This can include yourself!</p>
+
+<div>
+    <form class="mt2 pb2" action="https://formsubmit.co/hello@queryinterviews.com" method="POST">
+        <label>Your name
+            <input name="name" type="text" class="form-control mb1" required>
+        </label>
+
+        <label>Your email address
+            <input name="email" type="email" class="form-control mb1" required>
+        </label>
+
+        <label>Guest's name
+            <input name="guest-name" type="text" class="form-control mb1" required>
+        </label>
+
+        <label>Name of guest's product
+            <input name="guest-product" type="text" class="form-control mb1" required>
+        </label>
+
+        <label>MRR of the product*
+            <input name="mrr" type="text" class="form-control mb1" required>
+        </label>
+
+        <label>Guest's website or email address
+            <input name="where-to-find" type="text" class="form-control mb1" required>
+        </label>
+
+        <label>Briefly explain why I should interview them
+            <textarea name="message" class="form-control mb1" required></textarea>
+        </label>
+
+        <div class="align--right mt2">
+            <button class="btn btn--default" type="submit">Send</button>
+        </div>
+
+        <input type="hidden" name="_replyto">
+        <input type="hidden" name="_captcha" value="false">
+        <input name="_honey" style="display:none">
+        <input type="hidden" name="_subject" value="Query guest idea">
+        <input type="hidden" name="_next" value="https://www.queryinterviews.com/form-submitted/">
+    </form>
+
+    <p class="mt3 text--gray-5">*I will not share this publicly. I just want to get a feel for how the business is doing.</p>
+</div>

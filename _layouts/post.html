@@ -2,24 +2,31 @@
 layout: default
 ---
 
-<div class="container pb4">
+<div class="pt2 pb4">
+    <div class="container">
 
-    <article class="default-links indented-lists" itemscope itemtype="http://schema.org/BlogPosting">
-    
-        <h1 class="mb2">{{ page.title | escape }}</h1>
-    
-        {{ content }}
-    
-    </article>
-    
-    <p class="text--dark-gray mt4 tag-list">Posted in
-        {% for tag in page.tags %}
-        <a class="link link--gray capitalize" href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag }}</a>
-        {% endfor %}
-    </p>
-    
-    <div class="pt1 pb3">
-        {%- include newsletter-sm.html -%}
+        <!-- Interview -->
+        <article class="article red-links" itemscope itemtype="http://schema.org/BlogPosting">
+            <p class="font--mono">{{ page.date | date_to_string }}</p>
+            <h1>{{ page.title | escape }}</h1>
+            {{ content }}
+        </article>
+
+        <!-- Tags -->
+        <div class="mt4 red-links">
+            <p class="font--mono">Tags:
+                {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag }}</a>, 
+                {% endfor %}
+            </p>
+        </div>
+
+        <!-- Share on Twitter -->
+        <div>
+            <a class="btn btn--outline" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20interview%20from%20%40queryinterviews:%20urlofpage"><img class="relative button-icon" src="/img/twitter.svg">&nbsp;&nbsp;Share on Twitter</a>
+        </div>
+
     </div>
-
 </div>
+
+{%- include footer-newsletter.html -%}

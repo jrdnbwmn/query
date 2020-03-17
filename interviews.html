@@ -1,17 +1,26 @@
 ---
-layout: page
+layout: default
 ---
 
 <div class="pt2 pb4">
     <div class="container--lg">
 
         <div class="grid-row">
-            <div class="grid-column span-2"></div>
+
+            <div class="grid-column span-7 hide-on-mobile">
+                <h3 class="mb2">Tags</h3>
+                <div class="font--mono">
+                    {% for tag in site.tags %}
+                    <a href="/tag/{{ tag[0] | slugify }}" class="block mt1 mb1 link--gray_no-underline">{{ tag[0] }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+
             <div class="grid-column">
-                <h2 class="mb3">Posts from {{ page.date | date: "%B %Y" }}</h2>
+                <h2 class="mb2">Interviews</h2>
                 <div class="border--top">
-                
-                    {% for post in page.posts %}
+
+                    {% for post in site.posts %}
                     <div class="border--bottom pt1 pb1">
                         <div class="grid-row">
                             <div class="grid-column span-7"><span class="font--mono">{{ post.date | date_to_string }}</span></div>
@@ -22,7 +31,7 @@ layout: page
                 
                 </div>
             </div>
-            <div class="grid-column span-2"></div>
+
         </div>
 
     </div>
