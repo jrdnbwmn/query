@@ -7,7 +7,7 @@ layout: default
 
         <div class="grid-row">
 
-            <div class="grid-column span-7 hide-on-mobile">
+            <div class="grid-column span-6 hide-on-mobile">
                 <h3 class="mb2">Tags</h3>
                 <div class="font--mono">
                     {% for tag in site.tags %}
@@ -23,7 +23,7 @@ layout: default
                     {% for post in site.posts %}
                     <div class="border--bottom pt1 pb1">
                         <div class="grid-row">
-                            <div class="grid-column span-7"><span class="font--mono">{{ post.date | date_to_string }}</span></div>
+                            <div class="grid-column span-6"><span class="font--mono">{{ post.date | date_to_string }}</span></div>
                             <div class="grid-column"><h4><a class="block link--gray_no-underline" href="{{ post.url }}">{{ post.title | widont }}<span class="bold">&nbsp;&nbsp;→</span></a></h4></div>
                         </div>
                     </div>

@@ -30,10 +30,12 @@ layout: default
             <!-- Latest interview -->
             <div class="grid-column mb2 is-revealing reveal-on-scroll">
                 <h3 class="mb1">Latest interview</h3>
+                {% for post in site.posts limit:1 %}
                 <div class="mb2-on-mobile">
-                    <p class="mb1">William Candillon is a 31-year-old software engineer from France. He built React Native Starter Kits during a sabbatical and now has repos, writing, and videos...</p>
-                    <a href="post.html" class="link--red">Keep Reading →</a>
+                    <div class="default-links child-p-mb1">{{ post.content | truncatewords: 29 | widont }}</div>
+                    <a href="{{ post.url }}" class="link--red">Keep Reading →</a>
                 </div>
+                {% endfor %}
             </div>
             <div class="grid-column span-1"></div>
             <!-- About your interviewer -->
@@ -41,8 +43,8 @@ layout: default
                 <div class="grid-row">
                     <div class="grid-column">
                         <h3 class="mb1">About your host</h3>
-                        <p class="mb1">Hi there 👋. I'm <a class="link link" href="https://www.jrdnbwmn.com" target="_blank">Jordan Bowman</a>, the creator and host of Query. I make stuff for the web just like you and love talking to founders. </p>
-                        <a href="" class="link--red">Follow on Twitter →</a>
+                        <p class="mb1">Hi there 👋. I'm <a class="link link" href="https://www.jrdnbwmn.com">Jordan Bowman</a>, the creator and host of Query. I make stuff for the web just like you and love talking to&nbsp;founders. </p>
+                        <a href="https://www.twitter.com/jrdnbwmn" class="link--red">Follow on Twitter →</a>
                     </div>
                     <div class="grid-column span-7 hide-on-mobile">
                         <img class="rounded" src="/img/jordanbowman.jpg" alt="Jordan Bowman">

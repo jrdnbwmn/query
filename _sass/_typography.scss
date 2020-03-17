@@ -124,3 +124,6 @@ hr {
 
 // Caps
 .capitalize              { text-transform: capitalize; }
+
+// space-1 bottom margin on child p's
+.child-p-mb1 p           { margin-bottom: $space-1; }
