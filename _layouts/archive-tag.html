@@ -8,7 +8,7 @@ layout: default
         <div class="grid-row">
             <div class="grid-column span-2"></div>
             <div class="grid-column">
-                <h2 class="mb3">Posts tagged "{{ page.title | capitalize }}"</h2>
+                <h2 class="mb3 capitalize">Posts tagged "{{ page.title | widont }}"</h2>
                 <div class="border--top">
                 
                     {% for post in page.posts %}

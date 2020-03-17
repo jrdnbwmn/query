@@ -11,7 +11,7 @@ layout: default
                 <h3 class="mb2">Tags</h3>
                 <div class="font--mono">
                     {% for tag in site.tags %}
-                    <a href="/tag/{{ tag[0] | slugify }}" class="block mt1 mb1 link--gray_no-underline capitalize">{{ tag[0] }}</a>
+                    <a href="/tag/{{ tag[0] | slugify }}" class="block mt1 mb1 link--gray_no-underline capitalize">{{ tag[0] | widont }}</a>
                     {% endfor %}
                 </div>
             </div>
@@ -24,7 +24,7 @@ layout: default
                     <div class="border--bottom pt1 pb1">
                         <div class="grid-row">
                             <div class="grid-column span-7"><span class="font--mono">{{ post.date | date_to_string }}</span></div>
-                            <div class="grid-column"><h4><a class="block link--gray_no-underline" href="{{ post.url }}">{{ post.title }}<span class="bold">&nbsp;&nbsp;→</span></a></h4></div>
+                            <div class="grid-column"><h4><a class="block link--gray_no-underline" href="{{ post.url }}">{{ post.title | widont }}<span class="bold">&nbsp;&nbsp;→</span></a></h4></div>
                         </div>
                     </div>
                     {% endfor %}

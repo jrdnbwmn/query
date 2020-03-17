@@ -8,15 +8,15 @@ layout: default
         <!-- Interview -->
         <article class="article red-links" itemscope itemtype="http://schema.org/BlogPosting">
             <p class="font--mono">{{ page.date | date_to_string }}</p>
-            <h1>{{ page.title | escape }}</h1>
-            {{ content }}
+            <h1>{{ page.title | escape | widont }}</h1>
+            {{ content | jt_emdash | smartypants }} }}
         </article>
 
         <!-- Tags -->
         <div class="mt4 red-links">
             <p class="font--mono">Tags:
                 {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag }}</a>, 
+                <a href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag | widont }}</a>, 
                 {% endfor %}
             </p>
         </div>

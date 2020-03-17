@@ -8,7 +8,7 @@ layout: page
         <div class="grid-row">
             <div class="grid-column span-2"></div>
             <div class="grid-column">
-                <h2 class="mb3">Posts from {{ page.date | date: "%B %Y" }}</h2>
+                <h2 class="mb3">Posts from {{ page.date | date: "%B %Y" | widont }}</h2>
                 <div class="border--top">
                 
                     {% for post in page.posts %}

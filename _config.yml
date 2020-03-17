@@ -50,6 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-typogrify
   - jekyll-minifier
   - jekyll-autoprefixer
   - jekyll-sitemap # Keep at end
@@ -75,6 +76,7 @@ jekyll-minifier:
     - 'robots.txt'
     - 'humans.txt'
     - 'CNAME'
+    - '/fonts'
 autoprefixer:
   browsers:
   - last 1 version
