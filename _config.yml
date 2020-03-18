@@ -43,7 +43,7 @@ defaults:
       layout: "post"
   -
     scope:
-      path: "img"
+      path: ""
     values:
       image: /img/query-logo.png
 
@@ -81,6 +81,7 @@ jekyll-archives:
     month: '/month/:year-:month/'
     tag: '/tag/:name/'
 jekyll-minifier:
+  compress_javascript: false
   uglifier_args:
     harmony: true
   exclude: 
