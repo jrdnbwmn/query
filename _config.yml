@@ -13,26 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jordan Bowman
-email: desk@jrdnbwmn.com
+title: Query
+tagline: Bite-sized interviews for makers, indie hackers, and entrepreneurs
+email: hello@queryinterviews.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I make stuff for the web and interview entrepreneurs.
+  Bite-sized interviews for makers, indie hackers, and entrepreneurs.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.jrdnbwmn.com" # the base hostname & protocol for your site, e.g. http://example.com
-author: jrdnbwmn
+url: "https://www.queryinterviews.com" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  twitter: jrdnbwmn
 twitter:
-  username: jrdnbwmn
-logo: /img/mug.jpg
+  username: queryinterviews
+  card: summary
+logo: /img/query-logo.png
+image: /img/query-logo.png
 social:
   name: Jordan Bowman
   links:
-    - https://twitter.com/jrdnbwmn
-    - https://github.com/jrdnbwmn
-    - https://medium.com/@jrdnbwmn
-google_site_verification: ba0nqRhWolY1qsWZfe3v04Hymc3NtO_RpVJC_RcajLM
+    - https://twitter.com/queryinterviews
+# google_site_verification: ba0nqRhWolY1qsWZfe3v04Hymc3NtO_RpVJC_RcajLM
 lang: en_US
 twitter_username: jrdnbwmn
-github_username: jrdnbwmn
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/query-logo.png
 
 # Posts
 permalink: /interview/:title/
@@ -83,20 +89,6 @@ autoprefixer:
 
 # Other
 timezone: America/New_York
-
-# Defaults
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "post"
-  -
-    scope:
-      path: "img"
-    values:
-      image: true
 
 # Exclude from processing
 exclude:
