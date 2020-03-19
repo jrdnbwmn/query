@@ -64,7 +64,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-typogrify
-  - jekyll-minifier
   - jekyll-autoprefixer
   - jekyll-sitemap # Keep at end
 jekyll-archives:
@@ -80,17 +79,6 @@ jekyll-archives:
     year: '/year/:year/'
     month: '/month/:year-:month/'
     tag: '/tag/:name/'
-jekyll-minifier:
-  compress_javascript: false
-  uglifier_args:
-    harmony: true
-  exclude: 
-    - 'feed.xml'
-    - 'sitemap.xml'
-    - 'robots.txt'
-    - 'humans.txt'
-    - 'CNAME'
-    - '/fonts'
 autoprefixer:
   browsers:
   - last 1 version
