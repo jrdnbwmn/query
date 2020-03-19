@@ -218,6 +218,29 @@
     border-bottom-right-radius: $border-radius;
 }
 
+.form-group>.form-control {
+    max-width: 300px;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        max-width: inherit;
+        border-radius: $border-radius;
+    }
+}
+
+.form-group>.btn {
+    margin-left:-1px;
+    flex-basis: 150px;
+    max-width: 150px;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        max-width: inherit;
+        margin-left: auto;
+        flex-basis: inherit;
+        margin-top: $space-1;
+        border-radius: $border-radius;
+    }
+}
+
 
 // Placeholder styling
 // -------------------------------------------------------------------
