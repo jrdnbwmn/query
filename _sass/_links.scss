@@ -7,8 +7,8 @@
 .link,
 .link:link,
 .link:visited {
-    color: $text-color;
-    text-decoration: underline;
+    color: $link-color;
+    text-decoration: none;
     transition: color $fade;
 }
 
@@ -16,19 +16,22 @@
 .default-links a:focus,
 .link:hover,
 .link:focus {
-    color: $link-color;
-    text-decoration: underline;
+    color: $link-hover-color;
+    text-decoration: none;
 }
 
 .default-links a:active,
 .link:active {
     background-image: none;
-    color: $link-hover-color;
+    color: $active-link-color;
     outline: 0;
     transition: color $fade;
 }
 
 // Gray (like text, no underline)
+.gray-links a,
+.gray-links a:link,
+.gray-links a:visited,
 .link--gray_no-underline,
 .link--gray_no-underline:link,
 .link--gray_no-underline:visited {
@@ -37,12 +40,15 @@
     transition: color $fade;
 }
 
+.gray-links a:hover,
+.gray-links a:focus,
 .link--gray_no-underline:hover,
 .link--gray_no-underline:focus {
     color: $link-color;
     text-decoration: none;
 }
 
+.gray-links a:active,
 .link--gray_no-underline:active {
     background-image: none;
     color: $link-hover-color;
@@ -58,7 +64,7 @@
 .link--red:link,
 .link--red:visited {
     color: $link-color;
-    text-decoration: underline;
+    text-decoration: none;
     transition: color $fade;
 }
 
@@ -67,7 +73,7 @@
 .link--red:hover,
 .link--red:focus {
     color: $link-hover-color;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 

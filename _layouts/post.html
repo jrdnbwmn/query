@@ -12,6 +12,8 @@ layout: default
             {{ content | jt_emdash | smartypants }}
         </article>
 
+        {%- include footer-newsletter.html -%}
+
         <!-- Tags -->
         <div class="mt4 red-links">
             <p class="font--mono">Tags:
@@ -28,5 +30,3 @@ layout: default
 
     </div>
 </div>
-
-{%- include footer-newsletter.html -%}
