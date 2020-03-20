@@ -237,12 +237,20 @@
 
 .input-with-icon {
     padding-left: 2.45rem;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        padding-left: 2.7rem;
+    }
 }
 
 .form-icon {
     position: absolute;
     left: 0.75rem;
     top: 0.7rem;
+
+    @media screen and (max-width: $breakpoint--sm) {
+        top: 0.55rem;
+    }
 }
 
 
