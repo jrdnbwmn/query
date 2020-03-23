@@ -1,6 +1,6 @@
 ---
 title:  "Arif Tukiman from RunCloud"
-tags: [ niches, customers, competition, query ]
+tags: [ niches, customers, competition ]
 ---
 
 [Arif Tukiman](https://twitter.com/arifcooll) is CEO of Cool Code and back in January 2017, their team released [RunCloud](https://runcloud.io/), which is a cloud server panel. It helps you set up, configure, manage, and monitor your VPSes on cloud hosting providers, and is specifically for PHP applications. Arif lives in Johor Bahru, Malaysia.
@@ -49,3 +49,7 @@ Honestly, when it comes to our own survival, RunCloud does not provide enough to
 Pay constant attention to your customers; don't become so preoccupied with the activities of your competitors that you forget about your own business. Focus on improving your own business and ensuring that everyone who is associated with it has a great customer experience.
 
 I think Jeff Bezos said it best: "Obsess about customers, not competitors."
+
+—
+
+This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

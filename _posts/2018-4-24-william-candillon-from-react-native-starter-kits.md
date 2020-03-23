@@ -1,6 +1,6 @@
 ---
 title:  "William Candillon from React Native Starter Kits"
-tags: [ transparency, target market, query ]
+tags: [ transparency, target market ]
 ---
 
 William Candillon is a 31-year-old software engineer from France. He built [React Native Starter Kits](https://react-native.shop/) during a sabbatical and now has [repos](http://github.com/wcandillon), [writing](https://medium.com/@wcandillon), and [videos](https://www.youtube.com/channel/UC806fwFWpiLQV5y-qifzHnA) centered on React Native development. William currently lives in beautiful Zürich, Switzerland.
@@ -21,3 +21,7 @@ The size of the React Native community is substantial, but there is a lot of mis
 As a developer, I'm focused on code quality, trying to reduce technical debt as much as possible, and delivering the best product possible. The downside of this love for good software engineering is that other aspects of the product like online marketing get neglected.
 
 Developers always want to build cool things and continuously improve on them. But with the React Native Starter Kits, it is now clear to me that sometimes commercial data should drive the process instead.
+
+—
+
+This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

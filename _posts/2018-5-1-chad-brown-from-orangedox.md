@@ -1,6 +1,6 @@
 ---
 title:  "Chad Brown from Orangedox"
-tags: [ product, growth, query ]
+tags: [ product, growth ]
 ---
 
 [Chad Brown](https://ca.linkedin.com/in/chadraymondbrown) is CEO and Co-Founder of [Orangedox](http://www.orangedox.com/), which provides document tracking for Dropbox and Google Drive and is headquartered in Vancouver, Canada. Chad is an avid climber and hiker and has even visited Everest Base Camp in Nepal.
@@ -17,3 +17,7 @@ For the past 15 years I've run a service company that provides Business Intellig
 The biggest challenge has been trying to understand how to effectively market our product. With my service company everything was word of mouth so I never needed any real marketing.
 
 Being a bootstrapped company we don’t have large budgets for marketing and we needed to find creative ways to get our product out there. This lead us to do things like crash the Dropbox user conference and hand out Lego mini-figures to get face time with their CEO Drew Houston, or spend countless hours answering online questions for people about how they can better leverage their documents in hopes that we can later win them over to our product.
+
+—
+
+This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

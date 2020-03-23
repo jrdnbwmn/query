@@ -1,6 +1,6 @@
 ---
 title:  "Philip Manavopoulos from Doorbell"
-tags: [ pricing, competition, growth, query ]
+tags: [ pricing, competition, growth ]
 ---
 
 [Philip Manavopoulos](https://twitter.com/manavo?lang=en) is the founder of [Doorbell.io](https://doorbell.io/), a tool for easily gathering in-app user feedback on all major platforms (web, iOS, and Android). Philip is from the United Kingdom, and has represented his country in sport competitions and played violin for almost 20 years.
@@ -31,3 +31,7 @@ When you're starting your business, you might think that if the price is too hig
 If you start thinking of the business in terms of something that needs to support you, and how many customers you'd need in order to do that, it might change your perspective a bit on how to price your product! Especially in SaaS.
 
 That's something that I've seen myself with Doorbell as it has grown and I have needed to pay for more services. If something seems too cheap, I'd worry that it isn't a sustainable business and I might not be able to rely on it.
+
+—
+
+This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

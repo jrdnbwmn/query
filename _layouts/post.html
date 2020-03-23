@@ -12,21 +12,21 @@ layout: default
             {{ content | jt_emdash | smartypants }}
         </article>
 
-        {%- include footer-newsletter.html -%}
-
-        <!-- Tags -->
+                <!-- Tags -->
         <div class="mt4 red-links">
-            <p class="font--mono">Tags:
+            <p class="font--mono">Tags: 
                 {% for tag in page.tags %}
-                <a class="capitalize" href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag | widont }}</a>, 
+                <a class="capitalize" href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag | widont }}</a>{% if forloop.last == false %}, {% endif %}
                 {% endfor %}
             </p>
         </div>
-
+    
         <!-- Share on Twitter -->
-        <div>
+        <div class="pb2">
             <a class="btn btn--outline" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20interview%20from%20%40queryinterviews:%20https://www.queryinterviews.com{{ page.url }}"><img class="relative button-icon" src="/img/twitter.svg">&nbsp;&nbsp;Share on Twitter</a>
         </div>
+
+        {%- include footer-newsletter.html -%}
 
     </div>
 </div>

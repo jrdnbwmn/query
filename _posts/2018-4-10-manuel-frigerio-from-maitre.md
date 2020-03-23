@@ -1,6 +1,6 @@
 ---
 title:  "Manuel Frigerio from Maître"
-tags: [ pricing, paid advertising, query ]
+tags: [ pricing, paid advertising ]
 ---
 
 [Manuel Frigerio](https://manuel.friger.io/) is the founder of [Maître](https://maitreapp.co/), which offers multiple tools for viral referral marketing. He is Italian, and lived in London for four years before doing the "digital nomad thing"™ for 8 months in south-east Asia.
@@ -30,3 +30,7 @@ First, be nice. No seriously. Product Hunt is a community, but some people use i
 Remember that Product Hunt is not the right place to launch anything. It's undeniable that the PH community loves some things (crypto, kittens, the 3,285,434th colour palette app) more than others.
 
 Preparation is important. Don't just on PH, plan it carefully. It's incredible the difference it will make. I've actually written a [blog post](https://manuel.friger.io/blog/product-hunt) about our launch. Some information is out of date, but most of it is still relevant.
+
+—
+
+This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
