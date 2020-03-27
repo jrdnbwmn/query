@@ -16,7 +16,7 @@ layout: default
         <div class="mt4 red-links">
             <p class="font--mono">Tags: 
                 {% for tag in page.tags %}
-                <a class="capitalize" href="{{ site.baseurl }}/tag/{{ tag | slugize }}">{{ tag | widont }}</a>{% if forloop.last == false %}, {% endif %}
+                <a class="capitalize" href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag | widont }}</a>{% if forloop.last == false %}, {% endif %}
                 {% endfor %}
             </p>
         </div>
