@@ -1,5 +1,5 @@
 ---
-title:  "William Candillon from React Native Starter Kits"
+title:  "William Candillon from React Native Kits"
 tags: [ transparency, target market ]
 ---
 
