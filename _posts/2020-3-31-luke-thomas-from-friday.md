@@ -3,6 +3,8 @@ title:  "Luke Thomas from Friday"
 tags: [ ideation, growth, business model ]
 ---
 
+Quick note from Jordan: We're back in business! Query is now off what became a very long hiatus. I'm happy you're here but since it's been a while, feel free to check out the [new website](https://www.queryinterviews.com/) to see if you're still interested or simply [unsubscribe](https://queryinterviews.us2.list-manage.com/unsubscribe?u=a3f41956c3bc8e6bf0b723ccf&id=139ad3afed&e=[UNIQID]&c=f1ae6df05c) if you aren't—no hard feelings 😄. Now, on to the interview!
+
 [Luke Thomas](https://twitter.com/lukethomas14){:target="_blank"} is the founder of [Friday](https://www.friday.app/){:target="_blank"}, a communication tool for keeping track of your most important updates at work. Luke has worked in early stage technology for most of his career, and was previously the Head of Product at [Crystal](https://www.crystalknows.com/){:target="_blank"} and ran growth at [getAbstract](https://www.getabstract.com/en/){:target="_blank"}. He lives in Portland, Maine, and has a business partner, dog, and father-in-law all with the name Steve (which if you ask me is too many Steves).
 
 ## Where did the idea for your product come from?
