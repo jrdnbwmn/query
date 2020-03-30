@@ -22,6 +22,6 @@ As a developer, I'm focused on code quality, trying to reduce technical debt as 
 
 Developers always want to build cool things and continuously improve on them. But with the React Native Starter Kits, it is now clear to me that sometimes commercial data should drive the process instead.
 
-—
+&middot; &middot; &middot;
 
-This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
+Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

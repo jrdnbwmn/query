@@ -50,6 +50,6 @@ Pay constant attention to your customers; don't become so preoccupied with the a
 
 I think Jeff Bezos said it best: "Obsess about customers, not competitors."
 
-—
+&middot; &middot; &middot;
 
-This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
+Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

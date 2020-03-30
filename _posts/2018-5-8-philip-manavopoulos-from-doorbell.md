@@ -32,6 +32,6 @@ If you start thinking of the business in terms of something that needs to suppor
 
 That's something that I've seen myself with Doorbell as it has grown and I have needed to pay for more services. If something seems too cheap, I'd worry that it isn't a sustainable business and I might not be able to rely on it.
 
-—
+&middot; &middot; &middot;
 
-This interview sponsored by [Hover](https://hover.com/l2rAubkA){:target="_blank"}: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
+Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
