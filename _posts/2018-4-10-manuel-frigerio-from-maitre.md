@@ -31,6 +31,6 @@ Remember that Product Hunt is not the right place to launch anything. It's unden
 
 Preparation is important. Don't just on PH, plan it carefully. It's incredible the difference it will make. I've actually written a [blog post](https://manuel.friger.io/blog/product-hunt) about our launch. Some information is out of date, but most of it is still relevant.
 
-&middot; &middot; &middot;
+***
 
 Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
