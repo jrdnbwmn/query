@@ -33,6 +33,6 @@ Specifically, we are a subscription service and we charge $6/mo per user right n
 
 I'm sure we will change this a bit in the future. Pricing and packaging is always a work in progress.
 
-&middot; &middot; &middot;
+***
 
 Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.

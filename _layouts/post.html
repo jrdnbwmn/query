@@ -13,7 +13,7 @@ layout: default
         </article>
 
                 <!-- Tags -->
-        <div class="mt4 red-links">
+        <div class="mt2 red-links">
             <p class="font--mono">Tags: 
                 {% for tag in page.tags %}
                 <a class="capitalize" href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag | widont }}</a>{% if forloop.last == false %}, {% endif %}

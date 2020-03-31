@@ -74,9 +74,10 @@ small,
 // A better looking default horizontal rule
 hr {
     border: 0;
-    border-top: 1px solid $border-color;
+    border-top: $border-width solid $border-color;
     display: block;
     height: 1px;
+    margin: $space-4 0 $space-3;
 }
 
 // Blockquote
