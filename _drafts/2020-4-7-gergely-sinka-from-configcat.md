@@ -39,6 +39,6 @@ We had to figure out a way to present our product. Had to learn how to hold sale
 
 When founding a company, it's important to have the proper people on the legal and accounting fronts. Finding our way through the European tax system while keeping the service easy to use and the pricing simple has been challenging. It took a very long time until we figured out a way to be consistent with the local and general European regulations.
 
-&middot; &middot; &middot;
+***
 
-Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
+<div class="font--mono">Sponsored by Hover: simple, transparent domain management with stellar customer service. <a href="https://hover.com/l2rAubkA" target="_blank">Get $2 off</a> your first domain name purchase.</div>

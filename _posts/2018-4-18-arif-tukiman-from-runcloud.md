@@ -52,4 +52,4 @@ I think Jeff Bezos said it best: "Obsess about customers, not competitors."
 
 ***
 
-Sponsored by Hover: simple, transparent domain management with stellar customer service. [Get $2 off](https://hover.com/l2rAubkA){:target="_blank"} your first domain name purchase.
+<div class="font--mono">Sponsored by Hover: simple, transparent domain management with stellar customer service. <a href="https://hover.com/l2rAubkA" target="_blank">Get $2 off</a> your first domain name purchase.</div>
