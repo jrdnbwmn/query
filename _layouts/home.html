@@ -35,7 +35,7 @@ layout: default
                 <h3 class="mb1">Latest interview</h3>
                 {% for post in site.posts limit:1 %}
                 <div class="mb2-on-mobile">
-                    <div class="gray-links child-p-mb1">{{ post.content | truncatewords: 29 | widont }}</div>
+                    <div class="gray-links child-p-mb1">{{ post.content | truncatewords: 30 | widont }}</div>
                     <a href="{{ post.url }}" class="link--red">Keep Reading →</a>
                 </div>
                 {% endfor %}
