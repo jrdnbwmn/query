@@ -48,7 +48,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: /img/query-logo.png
+      image: /img/query-twitter.png
 
 # Posts
 permalink: /interview/:title/
